@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+/* OUTLET style */
+
+.images {
+    height: 83vh;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* FOOTER style */
+
+.footer {
+    position: fixed;
+    background-color: #fff;
+    height: 5vh;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.mediaIcons {
+    display: flex;
+    gap: 20px;
+}
+
+.mediaIcons button {
+    font-size: 23px;
+    color: #777;
+}
+
+.mediaIcons button:hover {
+    color: #000; 
+    transform: scale(1);
+}

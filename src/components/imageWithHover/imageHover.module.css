@@ -1,0 +1,25 @@
+.imageContainer {
+    position: relative;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+    
+  }
+  
+  .image.hide {
+    opacity: 0;
+  }
+
+  .image:hover {
+    transform: scale(1.7) rotate(35deg);
+  }

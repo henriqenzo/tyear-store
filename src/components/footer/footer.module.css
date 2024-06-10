@@ -1,0 +1,44 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+.mediaIcons {
+    display: flex;
+    gap: 20px;
+}
+
+.mediaIcons button {
+    font-size: 23px;
+    color: #777;
+}
+
+.mediaIcons button:hover {
+    color: #000; 
+    transform: scale(1);
+}
+
+.iconButton {
+    height: 28px;
+    width: 28px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 28px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.iconButton:hover {
+    transform: scale(1.15);
+}
