@@ -5,7 +5,7 @@ export const ProductsData = [
         imgHover: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/264162517/001--1--o8kle5c6fj.png",
         imgZoom: 100,
         name: "SUFGANG BASIC BLUE",
-        price: 149.90
+        price: 79.00
     },
     {
         id: 2,
