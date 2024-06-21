@@ -29,7 +29,6 @@ const ImageWithHover = ({ srcNormal, srcHover, alt, imgZoom }: ImageProps) => {
                 src={srcHover}
                 alt={alt}
                 width={`${imgZoom}%`}
-                
             />
         </div>
     );

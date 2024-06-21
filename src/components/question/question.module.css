@@ -1,0 +1,19 @@
+.wrap {
+    width: 60%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.questionTitle {
+    font-size: 19px;
+    font-weight: bold;
+    color: #444;
+}
+
+.question {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777;
+}

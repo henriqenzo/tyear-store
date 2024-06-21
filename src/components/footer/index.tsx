@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './footer.module.css'
 import { TwitterLogo, InstagramLogo, PinterestLogo, YoutubeLogo } from "@phosphor-icons/react";
 
@@ -12,7 +13,7 @@ export const Footer = () => {
                 <button className={styles.iconButton}><YoutubeLogo size={24} weight="fill" /></button>
             </div>
             <div className={styles.contact}>
-                <a href="">CONTATO</a>
+                <Link to="/contact">CONTATO</Link>
             </div>
         </div>
     )

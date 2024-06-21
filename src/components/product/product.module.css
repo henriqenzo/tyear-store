@@ -4,15 +4,7 @@
     width: 200px;
 }
 
-.productImg {
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .productDescription {
-    height: 80px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -27,27 +19,29 @@
 
 .actions {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-end;
+    position: relative;
 }
 
 .addButton {
-    width: 80%;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-    border: 2px solid #666;
-    border-radius: 4px;
-    font-size: 1rem;
-    background-color: transparent;
+    display: none;
     cursor: pointer;
+    width: 27px;
+    height: 27px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 0px; /* Ajuste conforme necessário */
+    right: 0px; /* Ajuste conforme necessário */
+    z-index: 10; /* Certifique-se de que o botão esteja acima das imagens */
     transition: .2s;
-} 
+}
 
 .addButton:hover {
-    background-color: #000;
-    border-color: #000;
-    color: #fff;
+    transform: scale(1.15);
+    color: rgb(0, 131, 0);
+}
+
+.buttonVisible {
+    display: block;
 }

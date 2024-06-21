@@ -36,13 +36,16 @@ export const Header = () => {
             </div>
             <nav className={styles.navbar}>
                 <ul>
-                    <li><Link to="/shop">SHOP</Link></li>
-                    <li><Link to="lookbook.html">LOOKBOOK</Link></li>
-                    <li><Link to="">SOBRE</Link></li>
+                    {/* <li><Link to="/shop">SHOP</Link></li>
+                    <li><Link to="/lookbook">LOOKBOOK</Link></li>
+                    <li><Link to="/about">SOBRE</Link></li> */}
+                    <li><Link to="/shop">LOJA</Link></li>
+                    <li><Link to="/lookbook">COLEÇÕES</Link></li>
+                    <li><Link to="/about">SOBRE</Link></li>
                 </ul>
             </nav>
             <div className={styles.icons}>
-                <a href="login.html"><button className={styles.iconButton}><UserCircle size={32} /></button></a>
+                <Link to="/login"><button className={styles.iconButton}><UserCircle size={32} /></button></Link>
                 <a className={styles.cartButton} onClick={() => setShowCart(true)}>
                     <button className={styles.iconButton}><ShoppingCart size={32} /></button>
                     <span className={`${styles.bulletCart} ${bulletCartClass} ${hasItem && styles.hasItem}`}>{cartItems.length}</span>

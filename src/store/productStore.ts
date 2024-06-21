@@ -26,4 +26,4 @@ const useProductStore = create<ProductStore>()(persist((set) => ({
     name: '@tyear_products',
 }))
 
-export default useProductStore
+export default useProductStore;

@@ -16,6 +16,9 @@ export const Cart = ({onHandleClose, showCartState}: CartProps) => {
     const removeFromCart = useCartStore((state) => state.removeFromCart)
     const addToList = useProductStore((state) => state.addToList)
 
+    const totalValue = cartItems.reduce((soma:number, i) => soma + i.price , 0)
+    const formatedValue = totalValue.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
+
     const verifyClass = () => {
         let cartClass = ''
 
@@ -56,6 +59,13 @@ export const Cart = ({onHandleClose, showCartState}: CartProps) => {
                         />
                     ) : <h5>Seu carrinho está vazio</h5> 
                 }
+            </div>
+            <div className={styles.cartPayment}>
+                <div className={styles.orderTotal}>
+                    <h3>Total</h3>
+                    <span>{formatedValue}</span>
+                </div>
+                <button>Prosseguir para o pagamento</button>
             </div>
         </div>
     )

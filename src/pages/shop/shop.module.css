@@ -15,17 +15,24 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    font-size: 12px;
+    font-size: 14px;
     list-style: none;
 }
 
-.filter li a {
+.filter a {
     display: block;
+    color: #333;
     transition: .2s;
 }
 
-.filter li a:hover {
-    transform: scale(1.15);
+.filter a:focus {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+
+.filter a:hover {
+    transform: scale(1.10);
 }
 
 .products {
@@ -35,7 +42,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    gap: 60px;
+    gap: 110px 60px;
 }
 
 .products h5 {

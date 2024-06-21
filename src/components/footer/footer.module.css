@@ -42,3 +42,7 @@
 .iconButton:hover {
     transform: scale(1.15);
 }
+
+.contact a:hover {
+    font-weight: bold;
+}
