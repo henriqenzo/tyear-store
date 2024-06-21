@@ -1,11 +1,19 @@
 export const ProductsData = [
     {
         id: 1,
+<<<<<<< HEAD
         img: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/224445800/staff-suf-gang-roxo-frente-ckjqxv79fd.jpg",
         imgHover: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/224445800/staff-suf-gang-roxo-costas-nsqsrfrd20.jpg",
         imgZoom: 90,
         name: "TEE SUFYANG PURPLE", 
         price: 149.90
+=======
+        img: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/264162517/002--1--digi0oidm7.png",
+        imgHover: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/264162517/001--1--o8kle5c6fj.png",
+        imgZoom: 100,
+        name: "SUFGANG BASIC BLUE",
+        price: 79.00
+>>>>>>> 7b81b6f25b73c70fef9376cbefdb1634d5efc8bd
     },
     {
         id: 2,
