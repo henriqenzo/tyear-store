@@ -1,19 +1,11 @@
 export const ProductsData = [
     {
         id: 1,
-<<<<<<< HEAD
         img: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/224445800/staff-suf-gang-roxo-frente-ckjqxv79fd.jpg",
         imgHover: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/224445800/staff-suf-gang-roxo-costas-nsqsrfrd20.jpg",
         imgZoom: 90,
         name: "TEE SUFYANG PURPLE", 
         price: 149.90
-=======
-        img: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/264162517/002--1--digi0oidm7.png",
-        imgHover: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/264162517/001--1--o8kle5c6fj.png",
-        imgZoom: 100,
-        name: "SUFGANG BASIC BLUE",
-        price: 79.00
->>>>>>> 7b81b6f25b73c70fef9376cbefdb1634d5efc8bd
     },
     {
         id: 2,
@@ -47,14 +39,6 @@ export const ProductsData = [
         name: "HOODIE SUFGANG BALACLAVA", 
         price: 379.90
     },
-    // {
-    //     id: 6,
-    //     img: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/268338608/suf-x-dan-ht62dnt91h.png",
-    //     imgHover: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/268338608/suf-x-dan2-u2058jrovq.png",
-    //     imgZoom: 120,
-    //     name: 'TEE SUFGANG "FPDS" BLACK',
-    //     price: 149.90
-    // },
     {
         id: 7,
         img: "https://cdn.awsli.com.br/600x450/1605/1605630/produto/256101578/00025-lxb4cia4gx.png",
@@ -266,7 +250,7 @@ export const ProductsData = [
     {
         id: 33,
         img: "https://cdn.awsli.com.br/600x700/350/350090/produto/252760498/sufgang---jeans-kidz-blue-ta6h7v13qy.jpg",
-        imgHover: "https://cdn.awsli.com.br/600x700/350/350090/produto/252760498/sufgang---jeans-kidz-blue2-usi8ln7fqp.jpg",
+        imgHover: "https://cdn.awsli.com.br/600x1000/350/350090/produto/252760498/sufgang---jeans-kidz-blue4-xhsmbrkujl.jpg",
         imgZoom: 100,
         name: "JEANS KIDZ BLUE", 
         price: 379.90 
@@ -298,7 +282,7 @@ export const ProductsData = [
     {
         id: 37,
         img: "https://cdn.awsli.com.br/600x1000/787/787834/produto/224521185/4suf-1-zn6br8qbk2.jpg",
-        imgHover: "https://cdn.awsli.com.br/600x1000/787/787834/produto/224521185/4suf-2-fcv9w3yfyp.jpg",
+        imgHover: "https://cdn.awsli.com.br/600x1000/787/787834/produto/224521185/4suf-3-wii3nmr5ig.jpg",
         imgZoom: 80,
         name: "BEANIE 4SUF BLACK",
         price: 99.90
@@ -338,7 +322,7 @@ export const ProductsData = [
     {
         id: 42,
         img: "https://cdn.awsli.com.br/600x1000/787/787834/produto/224519516/bone--suf4-preto-1-xe53lhl6h5.jpg",
-        imgHover: "https://cdn.awsli.com.br/600x1000/787/787834/produto/224519516/bone--suf4-preto-3-uaorjctdgd.jpg",
+        imgHover: "https://cdn.awsli.com.br/600x1000/787/787834/produto/224519516/bone--suf4-preto-2-qjk2gxoyvr.jpg",
         imgZoom: 95,
         name: "DAD HAT SUF4-40",
         price: 199.90

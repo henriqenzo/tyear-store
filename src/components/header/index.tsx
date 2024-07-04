@@ -36,11 +36,8 @@ export const Header = () => {
             </div>
             <nav className={styles.navbar}>
                 <ul>
-                    {/* <li><Link to="/shop">SHOP</Link></li>
+                    <li><Link to="/shop">SHOP</Link></li>
                     <li><Link to="/lookbook">LOOKBOOK</Link></li>
-                    <li><Link to="/about">SOBRE</Link></li> */}
-                    <li><Link to="/shop">LOJA</Link></li>
-                    <li><Link to="/lookbook">COLEÇÕES</Link></li>
                     <li><Link to="/about">SOBRE</Link></li>
                 </ul>
             </nav>

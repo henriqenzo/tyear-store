@@ -20,19 +20,12 @@
 }
 
 .filter a {
-    display: block;
     color: #333;
     transition: .2s;
 }
 
-.filter a:focus {
-    font-size: 17px;
-    font-weight: bold;
-    color: #000;
-}
-
 .filter a:hover {
-    transform: scale(1.10);
+    font-weight: bold;
 }
 
 .products {

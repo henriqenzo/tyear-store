@@ -23,18 +23,12 @@ export const Shop = () => {
             <div className={styles.showcase}>
                 <div className={styles.filter}>
                     <ul>
-                        {/* <li><a href="#">ALL</a></li>
+                        <li><a href="#">ALL</a></li>
                         <li><a href="#">T-SHIRTS</a></li>
                         <li><a href="#">HOODIES</a></li>
                         <li><a href="#">PANTS</a></li>
                         <li><a href="#">SHORTS</a></li>
-                        <li><a href="#">ACCESSORIES</a></li> */}
-                        <li><a href="#">TUDO</a></li>
-                        <li><a href="#">CAMISETAS</a></li>
-                        <li><a href="#">MOLETONS</a></li>
-                        <li><a href="#">CALÇAS</a></li>
-                        <li><a href="#">BERMUDAS</a></li>
-                        <li><a href="#">ACESSÓRIOS</a></li>
+                        <li><a href="#">ACCESSORIES</a></li>
                     </ul>
                 </div>
                 <div className={`${styles.products} ${productsList.length == 0 && styles.noProducts}`}>
